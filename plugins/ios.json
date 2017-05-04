@@ -1,0 +1,50 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-camera": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-contacts": {
+            "CONTACTS_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "385232377982",
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.pouryourcup.pouryourcup"
+        }
+    }
+}

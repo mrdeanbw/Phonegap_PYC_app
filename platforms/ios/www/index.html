@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="{{ app.description }}">
+    <title data-ng-bind="pageTitle()">Pour Your Cup</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body ng-controller="CoreController" ng-clok ng-class="{ 'aside-offscreen' : app.sidebar.isOffscreen, 'in-app': !$state.includes('guest')}" class="layout-material layout-dock footer-hidden">
+
+    <div>
+        <h1>PhoneGap</h1>
+        <h3>this is the first</h3>
+        <div id="deviceready" >
+            <p class="">Connecting to Device</p>
+            <p class="">Device is 123Ready!!</p>
+        </div>
+    </div>
+
+
+    <toaster-container toaster-options="{'limit':5}" class="m-t-20 p-t-10"></toaster-container>
+    <div id="app-container" ui-view="app" data-autoscroll="false" class="app-container"></div>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyAZFjIM4kmRFQ3zfjYeNJpijzbvulELrD4"></script>
+    <script src="https://d2wy8f7a9ursnm.cloudfront.net/bugsnag-2.min.js" data-apikey="f03b221363fdc87d85bbc65472e81450"></script>
+    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/templates.js"></script>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9TCJL" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script src="cordova/init.js"></script>
+
+    <script src="cordova.js"></script>
+
+</body>
+
+</html>

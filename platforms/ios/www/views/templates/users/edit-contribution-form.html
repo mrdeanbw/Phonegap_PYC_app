@@ -1,0 +1,17 @@
+
+<div class="col-md-12 p-s-0">
+  <h4 class="list-title m-t-10 lh-25">I<span class="text-danger">{{ " " + contributionText }}</span>{{ title }}</h4>
+  <h5 ng-class="{'height-110' : media_query == 'lgDesktop'}" class="lh-25 mobile-font">{{ info }}</h5>
+</div>
+<div class="col-md-12 p-s-0">
+  <div class="form-group m-t-5">
+    <label class="control-label">Caption</label>
+    <input type="text" ng-model="edit[contribution].title" ng-change="onChange()" placeholder="Job/Career advice..." class="form-control"/><small class="m-0 text-muted"><small>Ex. Job/Career advice, Experience/Perspective on Health/Life, Coaching/Mentoring, Life/Professional Skills</small></small>
+  </div>
+</div>
+<div class="col-md-12 m-b-15 p-s-0">
+  <div class="form-group m-t-20">
+    <label class="control-label">Details</label>
+    <textarea placeholder="Details (optional)" rows="10" ng-model="edit[contribution].detail" ng-change="onChange()" class="form-control"></textarea>
+  </div>
+</div>

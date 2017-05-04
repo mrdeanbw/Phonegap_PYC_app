@@ -1,0 +1,1 @@
+<h5>   {{ title | limitTo: 25 }}</h5><p class="headline">   {{ contribution.title | limitTo: 25 }} ...<!-- {{ contribution.title.length > 25 ? "..." : "" }}--><div dotdotdot="dotdotdot" ng-if="contribution.detail.length"><p class="detail"></p>{{ contribution.detail | limitTo: 35 }} {{ contribution.detail.length > 35 ? "..." : "" }}</div></p>
